@@ -24,7 +24,7 @@ function mainBackupLoop(config) {
     Q.allSettled(backupPromises)
       .then(function(results) {
         console.log(results);
-        setTimeout(mainBackupLoop, 5000, config);
+        setTimeout(mainBackupLoop, 5 * 60 * 1000, config);
       });
   } else {
     Config
