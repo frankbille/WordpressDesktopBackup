@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "package": "electron-packager . DevEnv --platform=all --arch=x64 --version=0.29.2 --out=dist --overwrite --ignore=node_modules --ignore='material-design-iconic-font/svg' --ignore=dist"
+    "package": "electron-packager . WordpressDesktopBackup --platform=all --arch=x64 --version=0.30.1 --out=dist --overwrite --ignore=node_modules --ignore='material-design-iconic-font/svg' --ignore=dist"
   },
   "dependencies": {
     "async": "^1.4.0",
