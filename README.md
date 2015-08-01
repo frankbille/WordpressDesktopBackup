@@ -1,4 +1,4 @@
-# Wordpress Desktop Backup #
+# Wordpress Desktop Backup [![Build Status](https://travis-ci.org/frankbille/WordpressDesktopBackup.svg?branch=master)](https://travis-ci.org/frankbille/WordpressDesktopBackup)
 
 Make local backups from your [wordpress.com][wp] blogs.  This is done as a local
 application running in the background on your computer.  It also means that
