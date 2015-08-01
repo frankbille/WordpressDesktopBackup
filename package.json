@@ -1,17 +1,9 @@
 {
-  "name": "wp-desktop-backup",
-  "version": "1.0.0",
+  "name": "WordpressDesktopBackup",
+  "version": "1.0.0-alpha1",
   "main": "backend/main.js",
-  "devDependencies": {
-    "bower": "^1.4.1",
-    "electron-prebuilt": "^0.30.1",
-    "electron-rebuild": "^0.2.5",
-    "electron-packager": "^5.0.0"
-  },
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager . WordpressDesktopBackup --platform=all --arch=x64 --version=0.30.1 --out=dist --overwrite --ignore=node_modules --ignore='material-design-iconic-font/svg' --ignore=dist"
-  },
+  "license": "Apache-2.0",
+  "repository": "frankbille/WordpressDesktopBackup",
   "dependencies": {
     "async": "^1.4.0",
     "fs-jetpack": "^0.7.0",
@@ -19,5 +11,22 @@
     "q": "^1.4.1",
     "request": "^2.60.0",
     "superagent": "^1.2.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . WordpressDesktopBackup --platform=all --arch=x64 --version=0.30.2 --out=dist --overwrite --ignore=node_modules --ignore='material-design-iconic-font/svg' --ignore=dist"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.30.2",
+    "electron-rebuild": "^0.2.5",
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-electron": "^2.0.0",
+    "load-grunt-tasks": "^3.2.0"
   }
 }

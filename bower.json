@@ -1,0 +1,14 @@
+{
+  "name": "WordpressDesktopBackup",
+  "version": "1.0.0-alpha1",
+  "homepage": "https://github.com/frankbille/WordpressDesktopBackup",
+  "authors": [
+    "Frank Bille <github@frankbille.dk>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "angular-material": "~0.10.0",
+    "roboto-fontface": "~0.4.3",
+    "requirejs": "~2.1.20"
+  }
+}
