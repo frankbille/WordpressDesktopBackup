@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '0.12'
+sudo: false
+script:
+  - node_modules/.bin/grunt setup
+  - node_modules/.bin/grunt dist
+cache:
+  directories:
+    - node_modules
